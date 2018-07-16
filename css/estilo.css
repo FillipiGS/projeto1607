@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #4a4541;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.frase{
+    text-align: center;
+    font-size: 40px;
+}
+
+.banner{
+    background-image: url("../img/banner.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 55vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.banner img{
+    width: 30%;
+    padding-bottom: 20px;
+}
+
+.lista li{
+    display: inline-block;
+}
+
+.lista{
+    list-style: none;
+    overflow: hidden;
+}
+
+.google{
+    width: 120px;
+    height: 120px;
+}
+
+.apple{
+    width: 150px;
+    height: 33px;
+}
+
+.psn{
+    width: 150px;
+    height: 90px;
+}
+
+.steam{
+    width: 120px;
+    height: 120px;
+}
+
+.xbox{
+    width: 120px;
+    height: 120px;
+}
+
+.imgfundo{
+    background-image: url("../img/banner.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.imgvideo img {
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 100%;
+  }
+
+
+.video {
+    margin: 0;
+    padding: 20px 0 0 250px;
+  }
+
+  iframe{
+    border: 10px solid white;
+    box-shadow: rgba(5, 6, 6, .75)0 0 40px;
+    height: 40vw;
+    width: 77%;
+  }
+
+  h1{
+    font-family: 'Lobster Two', cursive;
+  }
+
+  .bolinha{
+      list-style: none;
+  }
+
+  .bolinha img{
+      height: 169px;
+      width: 300px;
+      border: 10px solid white;
+      border-bottom: 40px solid white;
+      box-shadow: rgba(5, 6, 6, .75)0 0 40px;
+  }
+
+  .bolinha p{
+    box-shadow: rgba(5, 6, 6, .75)0 0 40px;
+      border: 20px solid white;
+      background-color: white;
+      font-weight: bold;
+      text-align: center;
+      font-size: 20px;
+  }
+
+.redes li{
+    display: inline-block;
+}
+
+.icons{
+    list-style: none;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.icons img{
+    height: 64px;
+    width: 75px;
+}
+
+.texto h1{
+    font-size: 40px;
+    padding-left: 20px;
+
+}
+
+.texto h2{
+    font-size: 30px;
+}
+
+.texto li{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sessao{
+    background-image: url("../img/banner.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.alinhar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
